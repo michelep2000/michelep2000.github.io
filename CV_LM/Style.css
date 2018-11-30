@@ -42,7 +42,7 @@ body{
 	height: 100%;
 }
 img{
-	width: 100%;
+	width: 98%;
 	height: 60%;
 }
 .sqr8{
@@ -71,9 +71,14 @@ img{
 	width: 90%;
 	border-radius: 15px;
 }
-
-
-
+.box4>h2{
+	justify-content: center;
+	align-items:center;
+}
+.box8{
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
 .box>h1{
 	color: black;
 }
@@ -93,16 +98,45 @@ img{
 #cierre:target ~ .box{
 	display: none;
 }
-a{
+.box>a{
 	text-decoration: none;
 	border-radius: 15px;
 	color: white;
-	font-size: 50px;
-}
-.content{
+	font-size: 35px;
+	height: 15px;
 	display: flex;
+	justify-content: flex-end;
+}
+.content1{
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 70%;
-	width: 100%
+	font-size: 200%;
+	width: auto;
+	height: auto;
+}
+.content{
+	padding-left: 5%;
+	padding-right: 5%;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	height: auto;
+	width: auto;
+}
+.content>img{
+	width: 20%;
+	height: 20%;
+}
+.content1>img{
+	width: 30%;
+	height:	20%;
+}
+.vid{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
 }
