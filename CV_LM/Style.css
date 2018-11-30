@@ -102,6 +102,7 @@ img{
 
 #cierre:target ~ .box{
 	display: none;
+	transition: all 200ms;
 }
 .box>a{
 	text-decoration: none;
