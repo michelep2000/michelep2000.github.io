@@ -6,7 +6,7 @@
 *{
 	font-family: typewcond!important;
 }
-h1, h2, h3, p, .text{
+h1, h2, h3, p, ul, .text{
 	color: white;
 	clear: both;
   text-align: center;
@@ -145,6 +145,9 @@ img{
 .content6>img{
 	width: 100px;
 	height:	100px;
+}
+.content5>ul{
+	font-size:25px;
 }
 .vid{
 	display:flex;
