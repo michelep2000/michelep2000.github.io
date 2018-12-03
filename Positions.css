@@ -1,0 +1,37 @@
+.CV{
+  display: grid;
+  grid-template-columns: 7% 5.5% 5.5% 5.5% 5.5% 5.5% 5.5% 5.5% 5.5% 5.5% 5.5% 7% ;
+  grid-column-gap:40px;
+  grid-row-gap: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contain{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 32% 32% 32%;
+  grid-column-gap:40px;
+  grid-row-gap: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  grid-row: 31 / 2;
+  grid-column: 3 / span 8;
+}
+.contain> div {
+  border: 2px solid black;
+}
+
+.sqr1{
+  grid-column: 3 / span 8;
+}
+
+.izq{
+  grid-row: 1 / 31;
+  grid-column: 1 / span 2;
+}
+.der{
+  grid-row: 1 / 31;
+  grid-column: 11 / span 2;
+}
